@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 const Payment = () => {
   const router = useRouter();
   const makePayment = () => {
-    router.push('/store/track-order')
+    router.push('/store/track')
   }
 
   return(
